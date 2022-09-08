@@ -1,0 +1,437 @@
+@import url("https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap");
+:root {
+  --primary-font: 'Nanum Gothic', sans-serif; 
+  --secondary-font: 'Original Surfer', sans-serif;
+  --primary-color: black;
+  --secondary-color: rgb(250, 208, 34);
+}
+@media screen and (max-width: 1090px) {
+  main .all .login .right .registration input {
+    width: 200px;
+  }
+  main .all .login .right p {
+    font-size: 15px; 
+  }
+  main .all .login .right p span {
+    font-size: 18px;
+  }
+  main .all .login .right .registration label {
+    font-size: 15px;
+  }
+  main .all .login .right .do-not-have h3 {
+    font-size: 17px;
+  }
+  main .all .login .right .do-not-have h4 {
+    font-size: 22px;
+  }
+  main .all .ongoing .sentences h1{
+    font-size: 50px;
+  }
+  main .all .ongoing .sentences h2{
+    font-size: 70px;
+  }
+  main .all .ongoing .sentences h4 {
+    font-size: 20px;
+  }
+  main .all .ongoing .sentences i {
+    font-size: 20px;
+  }
+  main .all .ongoing .sentences span {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 930px) {
+  main .all .with-animation .right h1{
+    font-size: 60px;
+  }
+  main .all .with-animation .left {
+    font-size: 250px;
+  }
+}
+@media screen and (max-width: 880px) {
+  main .all .second-cntr {
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr  1fr;
+  }
+  main .all .second-cntr .left {
+    width: 100%;
+    border-right: 0px;
+  }
+  main .all .second-cntr .left h2 {
+    rotate:calc(0deg);
+    margin-top: 30px;
+    height: 200px;
+  }
+  
+  main .all .login {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3fr;
+    margin-top: 90px;
+    border-bottom: 1px solid black;
+  }
+  main .all .login .left {
+    border-bottom: 1px solid black;
+    border-right: 0px;
+  }
+  main .all .login .left h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    rotate:calc(0deg);
+  }
+}
+@media screen and (max-width: 785px) {
+  header section .right nav .checkbtn {
+    display: block;
+  }
+  header section .right .burger ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+    z-index: 10;
+    background-color: var(--secondary-color);
+    border-top: 1px solid black;
+    display: grid;
+
+  }
+  header section .right .burger ul li {
+    display: block;
+    margin: 50px 0px;
+  }
+  header section .right .burger ul li a {
+    font-family: var(--secondary-font);
+    font-size: 50px;
+  }
+  header section .right .burger ul li a:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    width: 200px;
+    height: 100px;
+  }
+  header section .right .burger #check:checked ~ ul {
+    left: 0px
+  } 
+  header section .right nav .signbtn {
+    display: block;
+  }
+  header section .right .profile ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+    z-index: 10;
+    background-color: var(--secondary-color);
+    border-top: 1px solid black;
+    display: grid;
+
+  }
+  header section .right .profile ul li {
+    display: block;
+    margin: 50px 0px;
+  }
+  header section .right .profile ul li a {
+    font-family: var(--secondary-font);
+    font-size: 50px;
+  }
+  header section .right .profile ul li a:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    width: 200px;
+    height: 100px;
+  }
+  header section .right .profile #sign:checked ~ ul {
+    left: 0px
+  } 
+  header section .right .profile {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 5px;
+  }
+  header section .right .profile .signbtn {
+    margin:  0px;
+  }
+  header section .right .profile .signbtn i {
+    margin: 0px;
+  }
+
+}
+@media screen and (max-width: 750px) {
+  main .all .with-animation .left i {
+    font-size: 150px;
+  }
+  main .all .with-animation .right h1 a {
+    font-size: 30px;
+    margin-top: 120px;
+  }
+  main .all .bottom .info .left h3 {
+    font-size: 20px;
+  }
+  main .all .bottom .info .right nav ul li {
+    font-family: var(--secondary-font);
+    font-size: 15px;
+  }
+  footer .copyright .left,
+  footer .copyright .middle {
+  font-size: 13px;
+  }
+  footer .copyright .right {
+    font-size: 15px;
+  }
+  main .all .second-cntr {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  main .all .ongoing .sentences h2{
+    font-size: 60px;
+  }
+}
+@media screen and (max-width:650px) {
+  header section .right nav .checkbtn {
+    margin-left: 200px;
+  }
+  main .all .ongoing .sentences h1 {
+    font-size: 40px;
+  }
+  main .all .ongoing .sentences h2{
+    font-size: 40px;
+  }
+}
+@media screen and (max-width:570px) {
+  header section .right nav .checkbtn {
+    margin-left: 120px;
+  }
+  main .all .ongoing .sentences h1 {
+    font-size: 30px;
+  }
+  main .all .ongoing .sentences h2{
+    font-size: 30px;
+  }
+  main .all .ongoing .image img {
+    margin-top: 10px;
+  }
+  main .all .about-it p {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+}
+@media screen and (max-width: 525px) {
+  header section .right .buger{
+    width: 10px;
+  }
+  main .all .bottom .info .left h3 {
+    font-size: 10px;
+  }
+  main .all .bottom .info .right nav ul li {
+    font-family: var(--secondary-font);
+    font-size: 12px;
+  }
+  footer .copyright .left,
+  footer .copyright .middle {
+  font-size: 10px;
+  }
+  footer .copyright .right {
+    font-size: 12px;
+  }
+  header section .right {
+    width: 300px;
+  }
+  header section .right nav .checkbtn {
+    margin-left: 100px;
+  }
+  main .all .ongoing .sentences h1 {
+    font-size: 20px;
+  }
+  main .all .ongoing .sentences h2{
+    font-size: 20px;
+  }
+  main .all .past-events {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 8fr;
+  }
+  main .all .past-events .left {
+    border-right: 0px;
+  }
+  main .all .past-events .left h3 {
+    rotate:calc(-0deg);
+  }
+}
+@media screen and (max-width:490px) {
+  main .all .login .left h3 {
+    font-size: 45px;
+  }
+  main .all .login .right p {
+    font-size: 15px;
+  }
+  main .all .login .right p span {
+    font-size: 16px;
+  }
+  main .all .login .right {
+    margin: 30px 0px 30px 0px;
+  }
+  main .all .login .right .form input,
+  main .all .login .right .registration input {
+    width: 95px;
+  }
+  main .all .login .right .do-not-have h3 {
+    font-size: 12px;
+  }
+  main .all .login .right .do-not-have h4 {
+    font-size: 14px;
+  }
+  main .all .login .right .do-not-have h3 {
+    margin: 15px 10px 25px 20px;
+  }
+  main .all .login .right button {
+    margin-top: 20px;
+  }
+  main .all .ongoing .sentences h1 {
+    font-size: 15px;
+  }
+  main .all .ongoing .sentences h2{
+    font-size: 15px;
+  }
+  main .all .ongoing .sentences i {
+    font-size: 20px;
+  }
+  main .all .ongoing .sentences span {
+    font-size: 15px;
+  }
+  main .all .price .left div {
+    width: 200px;
+    height: 100px;
+  }
+  main .all .price .left div p {
+    font-size: 15px;
+  
+  }
+  main .all .price .left div span {
+    font-size: 20px;
+  }
+  main .all .price .left div button {
+    width: 80px;
+    height: 30px;
+    font-size: 15px;
+  }
+  main .all .price .right h5{
+    font-size: 18px;
+  } 
+  main .all .price .right div p {
+    font-size: 12px;
+  }
+}
+@media  screen and (max-width: 450px) {
+  header section .right {
+    width: 200px;
+  }
+  header section .right nav .checkbtn {
+    margin-left: 50px;
+  }
+  main .all .ongoing .image {
+    margin-top: 20px;
+  }
+  main .all .ongoing {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px;
+    margin-bottom: 10px;
+  } 
+  main .all .ongoing .sentences h1 {
+  font-size: 25px;
+ }
+ main .all .ongoing .sentences h2{
+  font-size: 25px;
+ }
+ main .all .with-animation {
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+header section .right .burger ul li a {
+  font-size: 30px;
+}
+}
+@media  screen and (max-width: 390px) {
+  header section .left i {
+    font-size: 28px;
+  }
+  header section .left div {
+    font-size: 18px;
+  }
+  header section .right nav .checkbtn {
+    margin-left: 120px;
+  }
+  header section .right nav .checkbtn,
+  header section .right nav .signbtn {
+    font-size: 15px;
+  }
+  main .all .bottom .info .left h3 {
+    font-size: 10px;
+  }
+  main .all .bottom .info .right nav ul li {
+    font-family: var(--secondary-font);
+    font-size: 10px;
+  }
+}
+@media  screen and (max-width: 325px) {
+  main .all .bottom .info .left h3 {
+    font-size: 7px;
+  }
+  main .all .bottom .info .right nav ul li {
+    font-size: 7px;
+  }
+  header section .right nav .checkbtn {
+    margin-left: 50px;
+  }
+  main .all .price .left div {
+    width: 170px;
+    height: 80px;
+  }
+  main .all .price .left div p {
+    font-size: 12px;
+  
+  }
+  main .all .price .left div span {
+    font-size: 15px;
+  }
+  main .all .price .left div button {
+    width: 70px;
+    height: 20px;
+    font-size: 12px;
+  }
+  main .all .second-cntr .left h2 {
+    font-size: 35px;
+    margin: 0px;
+  }
+  main .all .second-cntr .right img {
+    width: 260px;
+  }
+  header section .right .burger ul li a {
+    font-family: var(--secondary-font);
+    font-size: 20px;
+  }
+  header section .right .burger ul li a:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    width: 110px;
+    height: 70px;
+  }
+  header section .right .profile ul li a {
+    font-family: var(--secondary-font);
+    font-size: 20px;
+  }
+  header section .right .profile ul li a:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    width: 110px;
+    height: 70px;
+  }
+}
